@@ -16,8 +16,8 @@ namespace Additonalfeatures
             var x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(x * 15);
 
-            Person pers = new Person("Ryan" , 25 );
-            Console.WriteLine(pers);
+            Person pers = new Person("Ryan");
+            Console.WriteLine(pers.FirstName + " " + pers.Age);
             Console.Read();
         }
     }
