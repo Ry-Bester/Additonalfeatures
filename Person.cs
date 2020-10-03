@@ -14,7 +14,7 @@ namespace Additonalfeatures
 
         }
         
-        public Person FullName (string name, int old)
+        public Person  (string name, int old)
         {
             
             FirstName = name;
